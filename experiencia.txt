@@ -1,0 +1,1 @@
+            <a onclick = "ButtonDia('diaimg2')" id="button-dia">DIA</a>

@@ -1,0 +1,240 @@
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: Anton, sans-serif;
+    
+}
+
+.cabecalho{
+    position:relative;
+    display:flex;
+    background: #534b4b;
+    width: 100%;
+    height: 20%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.cabecalho-img {
+    position: relative;
+    left: 1%;
+    width: 20%;
+    margin: auto;
+    height: 100%;
+}
+
+.cabecalho-text {
+    position: relative;
+    left: 23%;
+    font-family: 'Arial';
+    font-size: 1.05em;
+    color: #d1cdcd;
+    width: 83%;
+    height: 100%;
+
+}
+
+.corpo{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 80%;    
+}
+
+.corpo > div > img {
+    display:block;
+    position:absolute;
+    opacity : 0.8;
+    max-width: 250%;
+
+}
+
+
+.button-imag{
+    position: relative;
+    font-family: 'Arial';
+    font-size: 1.7em;
+    left: 35%;
+    top: 130px;
+    color: rgb(37, 54, 68);
+}
+
+
+#button-dia{
+    text-decoration: none;
+    opacity: 0.55;
+    letter-spacing: 5.87px;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    font-family: Anton, sans-serif;
+    background: linear-gradient(to bottom, #14131C, #C2A43A);
+    border: solid #7CAFFF 1px;
+    border-radius: 50px;
+    padding:10.5px;
+    text-shadow: 0px 1px 2px #000000;
+    box-shadow: 0px 1px 5px #0D2444;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+#button-dia:hover{
+    background: #8f9057;
+    font-size: 1.2em;
+}
+
+#button-noite{
+    text-decoration: none;
+    opacity: 0.55;
+    letter-spacing: 5.87px;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    font-family: Anton, sans-serif;;
+    background: linear-gradient(to bottom, #14131C, #585790);
+    border: solid #7CAFFF 1px;
+    border-radius: 50px;
+    padding:10.5px;
+    text-shadow: 0px 1px 2px #000000;
+    box-shadow: 0px 1px 5px #0D2444;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+#button-noite:hover{
+    background: #585790;
+    font-size: 1.2em;
+}
+
+
+.corpo > div > div > ul {
+    position: relative;
+    display: inline;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    top: auto;
+    bottom: auto;
+    text-align: center;
+    display:inline-block;
+}
+
+
+:root{
+    --cor-fundo : rgb(25, 24, 27);
+    --cor-hover : rgb(123, 119, 128);
+    --cor-primaria : rgb(255, 255, 255);
+}
+
+.dp-menu {
+    
+    opacity: 0.8;
+    text-align: center;
+    list-style-type:none;
+    padding: 0;
+    font-family: Anton, sans-serif;
+    position: relative;
+}
+
+
+.dp-menu li{
+    
+    padding: 5%;
+    display: inline-block;
+    font: Arial;
+}
+
+.dp-menu  li a{
+    position: relative;
+    text-align: center;
+    background-color: #000000;
+    color: var(--cor-primaria);
+    opacity: 0.7;
+    border-radius: 50px;
+    left: auto;
+    right: auto;
+    display: flex-line;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.dp-menu li a:hover{
+    background-color: var(--cor-hover);
+}
+
+
+.dp-menu  ul{
+    display:none;
+    left: 0;
+    padding: 0;
+    
+}
+.dp-menu li:hover ul{
+    left: auto;
+    right: auto;
+    display:block;
+    padding: 5px;
+    float: inline-end;
+}
+
+
+.dp-menu ul{
+    width: 150px;
+}
+
+.temperatura-box {
+    position: relative;
+    display: flex;
+    padding: 7%;
+    top: 40px;
+    width: 100%;
+    height: 20%;
+}
+
+.temperatura-texto {
+    position: relative;
+    text-align: center;
+    left: 80px;
+}
+.temperatura-texto > h2{
+    position: relative;
+    left: 110px;
+}
+
+.vento-box {
+    position: relative;
+    display: flex;
+    padding: 7%;
+    top: 40px;
+    width: 100%;
+    height: 20%;
+}
+
+.vento-texto {
+    position: relative;
+    text-align: center;
+    left: 50px;
+}
+.vento-texto > h2{
+    position: relative;
+    left: 110px;
+}
+
+.button-dia-noite{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.div-button-dia{
+    width: 50%;
+}
+.div-button-noite{
+    width: 50%;
+}
