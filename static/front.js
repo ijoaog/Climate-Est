@@ -26,7 +26,7 @@ let arraydiasemana = {};
  
 
 
-///////////////////////////////////////////////
+/////////////////////////////////////////////// nao obteve sucesso em conseguir um "for" pois não foi passado ao async
     document.getElementById("button-seg").addEventListener("click", () => {
         document.getElementById("button-noite").addEventListener("click", () => {
             telaNoite()
