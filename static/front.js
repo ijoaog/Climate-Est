@@ -26,7 +26,7 @@ let arraydiasemana = {};
  
 
 
-/////////////////////////////////////////////// nao obteve sucesso em conseguir um "for" pois não foi passado ao async
+/////////////////////////////////////////////// nao obteve sucesso em conseguir um "for" pois não foi passado ao async sasasaas
     document.getElementById("button-seg").addEventListener("click", () => {
         document.getElementById("button-noite").addEventListener("click", () => {
             telaNoite()
